@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"
+    android:background="@color/purple_200">
+
+
+    <TextView
+        android:id="@+id/K1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Drama Mobile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/G1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/K1"
+        android:src="@drawable/drama"
+        />
+
+    <EditText
+        android:id="@+id/K2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/G1"
+        android:layout_marginTop="0dp"
+        android:text="Aplikasi ini akan berisikan beberapa drama-drama yang berasal dari Korea, China, Jepang, dan Thailand yang memiliki beberapa genre yang menarik"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/G2"
+        android:layout_below="@id/K2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/drama_korea"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/K3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/K2"
+        android:text="When Pikiran Meri said, 'Kalau Gabut bukannya ngoding, malah ngedrakor because plot twistnya keren !'"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="220dp"
+        />
+
+    <ImageView
+        android:id="@+id/G3"
+        android:layout_below="@id/K3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/drama_china"
+        android:layout_marginLeft="220dp"
+        />
+
+    <EditText
+        android:id="@+id/K4"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/G2"
+        android:layout_marginTop="30dp"
+        android:text="When Mata Meri said, 'Kalau Gabut bukannya ngoding, malah ngedracin because aktor dan aktrisnya goodlooking semua :)!'"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="0dp"
+        />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register Account"
+        android:layout_below="@id/K4"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:id="@+id/B2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:layout_below="@id/K4"
+        android:layout_marginLeft="270dp"
+        />
+
+</RelativeLayout>
